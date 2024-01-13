@@ -1,0 +1,97 @@
+
+body {
+    font-family: arial, Georgia , Verdana;
+    display: grid;
+    grid-template-rows: auto;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+header{
+    background-color: #2F4F4F;
+    color:rgb(255, 254, 254);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+img{
+   padding: 0%;
+   margin: 0%; 
+}
+h1 {
+    grid-column: 2/4;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0%;
+   
+}
+nav {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: .1rem; 
+}
+#menu {
+    display: grid; 
+    padding-bottom: .1rem; 
+    text-align: center;
+    font-size: 25px;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+main h2 {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: .1rem; 
+    background-color: white;
+    color:black;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+main{
+  padding:25px;
+
+}
+section{
+    border: solid black .5px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+section h3 {
+    background-color: #2F4F4F;
+    color:rgb(255, 254, 254);
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem;
+    margin-top: 0;
+   
+}
+
+section p {
+    text-align: center;
+    font-size: 25px;
+}
+footer p{
+    background-color: #2F4F4F;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+ul li{
+    padding: .5rem;
+}
+
