@@ -1,4 +1,4 @@
 const year = document.getElementById('year');
-year.innerHTML= `@ ${new Date().getFullYear()}`;
+year.innerHTML= `&#169; ${new Date().getFullYear()}`;
 const lastModified = document.getElementById('lastModified');
 lastModified.innerHTML = document.lastModified;
