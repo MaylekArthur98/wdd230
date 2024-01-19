@@ -1,0 +1,46 @@
+body {
+    font-family: arial, Georgia , Verdana;
+    display: grid;
+    grid-template-rows: auto;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+header{
+    background-color: #2F4F4F;
+    color:rgb(255, 254, 254);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+h1 {
+    grid-column: 2/4;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0%;
+   
+}
+main{
+  padding:25px;
+
+}
+section{
+    border: solid black .5px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+footer p{
+    background-color: #2F4F4F;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+ul li{
+    padding: .5rem;
+}
