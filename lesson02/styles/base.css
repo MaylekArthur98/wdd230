@@ -67,3 +67,9 @@ ul li{
         grid-column: auto;
     }
 }
+@media screen and (min-width: 500px){
+
+    header,main,footer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
