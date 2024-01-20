@@ -1,7 +1,7 @@
 body {
     font-family: arial, Georgia , Verdana;
     display: grid;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr;
     padding: 0%;
     margin: 0%;
 
@@ -22,12 +22,25 @@ h1 {
 }
 main{
   padding:25px;
+  display: grid;
 
 }
 section{
     border: solid black .5px;
     border-radius: 5px;
     margin-bottom: 5%;
+    text-align: center;
+}
+section h2 {
+    background-color: #2F4F4F;
+    color:white;
+    padding: 25px;
+    margin-top: 0;
+   
+}
+section p{
+    text-align: left;
+    padding-left: 20px;
 }
 footer p{
     background-color: #2F4F4F;
@@ -40,6 +53,9 @@ footer p{
     margin-top: 0;
     margin-bottom: 0;
 
+}
+img{
+    border: solid black 1px;
 }
 ul li{
     padding: .5rem;
