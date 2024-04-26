@@ -98,6 +98,7 @@ ul li a{
     font-size: 30px
 }
 @media screen and (max-width: 640px){
+    
     header,main,footer{
         grid-template-columns: 1fr;
         grid-column: auto;
