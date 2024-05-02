@@ -111,7 +111,7 @@ ul li a{
 @media screen and (min-width: 500px){
 
     header,main,footer{
-        text-align: justify;
+        text-align: center;
         grid-template-columns: 1fr 1fr;
     }
 }
