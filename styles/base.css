@@ -14,14 +14,18 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+header img{
+    position:relative;
+    float:left;
+}
 img{
    padding: 0%;
    margin: 0%; 
    
 }
 h1 {
-    grid-column: 2/4;
-    text-align: initial;
+    
+   
     text-indent: -110px;
     padding-top: 100px;
     margin: 0%;
