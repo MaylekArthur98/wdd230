@@ -1,8 +1,8 @@
 
 body {
     font-family: arial, Georgia , Verdana;
-    display: grid;
-    grid-template-rows: auto;
+    /*display: grid;
+    grid-template-rows: auto;*/
     padding: 0%;
     margin: 0%;
 
@@ -12,7 +12,7 @@ header{
     background-color: #2F4F4F;
     color:rgb(255, 254, 254);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
 }
 
 img{
@@ -31,7 +31,7 @@ h1 {
 nav {
     background-color: black;
     display: grid;
-    grid-template-columns: 1fr;
+    /*grid-template-columns: 1fr;*/
     padding-bottom: .1rem; 
     text-align: center;
     font-size: 25px;
@@ -44,7 +44,7 @@ a{
 main h2 {
     background-color: black;
     display: grid;
-    grid-template-columns: 1fr;
+    /*grid-template-columns: 1fr;*/
     padding-bottom: .1rem; 
     background-color: white;
     color:black;
@@ -80,7 +80,7 @@ section p {
 footer p{
     background-color: #2F4F4F;
     display: grid;
-    grid-template-columns: 1fr;
+    /*grid-template-columns: 1fr;*/
     padding: 0;
     text-align: center;
     font-size: 25px;
