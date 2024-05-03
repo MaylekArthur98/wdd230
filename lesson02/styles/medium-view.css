@@ -1,7 +1,7 @@
 *{
     font-family: Roboto, helvetica, sans-serif;
 }
-header,main,footer{
+/*header,main,footer{
     max-width: 640px;
     margin: 1rem auto;
     border: 1px solid #bbb;
@@ -25,4 +25,14 @@ section{
 header {
     display: grid;
     grid-template-columns: 1fr;
+}*/
+@media screen and (min-width: 490px) and (max-width: 800px){
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .three{
+        grid-column:1/span 3;
+    }
 }

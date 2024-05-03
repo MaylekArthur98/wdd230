@@ -10,22 +10,14 @@ body {
 header{
     background-color: #2F4F4F;
     color:rgb(255, 254, 254);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 h1 {
-    grid-column: 2/4;
     text-align: center;
     padding-top: 100px;
     margin: 0%;
    
 }
-main{
-  padding:25px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5px;
-}
+
 section{
     border: solid black .5px;
     border-radius: 5px;
@@ -56,20 +48,11 @@ footer p{
 
 }
 img{
+    
     border: solid black 1px;
 }
 ul li{
     padding: .5rem;
 }
-@media screen and (max-width: 640px){
-    header,main,footer{
-        grid-template-columns: 1fr;
-        grid-column: auto;
-    }
-}
-@media screen and (max-width: 800px){
 
-    header,main,footer{
-        grid-template-columns: 1fr 1fr;
-    }
-}
+
