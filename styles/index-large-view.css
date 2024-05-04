@@ -1,0 +1,18 @@
+@media screen and (min-width: 900px){
+    nav {
+        padding: 5px;
+    }
+    nav ul {
+        display: flex;
+        justify-content:space-around;
+    }
+    main {
+        display: grid;
+        /*grid-template-rows: 1fr;*/
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    main h2 {
+        justify-content: center;
+    }
+}

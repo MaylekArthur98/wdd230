@@ -29,27 +29,32 @@ h1 {
    
 }
 nav {
-    background-color: black;
-    display: grid;
+    
+    /*display: grid;*/
     /*grid-template-columns: 1fr;*/
-    padding-bottom: .1rem; 
     text-align: center;
     font-size: 25px;
 }
-a{
+nav ul li a{
     text-decoration: none;
     color: white;
     padding-bottom: 10px;
 }
-main h2 {
+nav ul {
     background-color: black;
-    display: grid;
+    margin-top: 0;
+}
+h2 {
     /*grid-template-columns: 1fr;*/
     padding-bottom: .1rem; 
     background-color: white;
     color:black;
     text-align: left;
-    border-bottom: 1px solid black;
+    border-bottom: .05px solid black;
+    margin-bottom: 0;
+    font-family: verdana;
+    font-size: larger;
+    padding-top: 5px;
 }
 main{
   padding:25px;
