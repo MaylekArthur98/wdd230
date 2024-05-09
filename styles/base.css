@@ -16,7 +16,7 @@ header{
 }
 
 img{
-   width: 35%;
+   width: 25%;
    height: auto;
    
 }
@@ -36,9 +36,7 @@ nav {
     text-align: center;
     background-color: white;
     font-size: 25px;
-    margin:auto;
-    margin-top: .5em;
-    border-radius: 1em;
+    margin:0;
 }
 
 h2 {
@@ -111,6 +109,8 @@ ul li a{
 
 #menu::before {
 	content: "☰";
+    color: #000;
+    
 }
 
 #menu.open::before {

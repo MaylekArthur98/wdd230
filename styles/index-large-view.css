@@ -1,4 +1,8 @@
 @media screen and (min-width: 900px){
+    img {
+        width: 20em;
+        justify-content: left;
+    }
     nav {
         padding: 5px;
     }
