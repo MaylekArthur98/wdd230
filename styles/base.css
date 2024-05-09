@@ -21,7 +21,14 @@ img{
    
 }
 
-
+h1 {
+    position: relative;
+    bottom: 50px;
+    margin: 0;
+    font-size: 25px;
+    margin: 0 0 0 10rem;
+   
+}
 nav {
     
     /*display: grid;*/
@@ -29,6 +36,9 @@ nav {
     text-align: center;
     background-color: white;
     font-size: 25px;
+    margin:auto;
+    margin-top: .5em;
+    border-radius: 1em;
 }
 
 h2 {
@@ -95,9 +105,8 @@ ul li a{
 	border: 0;
 	background: none;
 	color: #000;
- 	position: absolute;
-	top:0;
-	right:0;
+
+
 }
 
 #menu::before {
@@ -105,7 +114,7 @@ ul li a{
 }
 
 #menu.open::before {
-	content: "🔽";
+	content: "✖";
 }
 
 .navigation {
@@ -114,7 +123,9 @@ ul li a{
 	list-style: none;
 	color: #fff;
 }
-
+.navigation .active{
+    text-decoration: underline white;
+}
 .navigation a {
 	display: none;
 	padding: 1rem;
@@ -122,6 +133,7 @@ ul li a{
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
+    
 }
 .navigation a:hover {
 	background-color: #bbb;
@@ -133,27 +145,9 @@ ul li a{
 .open a {
 	display: block;
 }
-@media screen and (max-width: 640px){
-    
-    header,main,footer{
-        grid-template-columns: 1fr;
-        grid-column: auto;
-    }
-    h1 {
-        justify-content: right;
-        position: relative;
-        bottom: 50px;
-        margin: 0;
-        grid-column: 1/span2;
-        font-size: 25px;
-        
-       
-    }
-}
-@media screen and (min-width: 500px){
+iframe{
+    width: 50%;
+    height: 50%;
+    grid-column: 1/span 2;
+}   
 
-    header,main,footer{
-        text-align: center;
-        grid-template-columns: 1fr 1fr;
-    }
-}
