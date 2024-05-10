@@ -4,7 +4,7 @@
         justify-content: left;
     }
     nav {
-        padding: 5px;
+        padding: 0;
     }
     nav ul {
         display: flex;
