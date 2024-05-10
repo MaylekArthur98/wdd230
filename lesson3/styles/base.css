@@ -1,0 +1,101 @@
+
+body {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+header{
+    background-color: #2F4F4F;
+    color:rgb(255, 254, 254);
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    padding: 5em;
+}
+
+nav {
+    
+    /*display: grid;*/
+    /*grid-template-columns: 1fr;*/
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    margin:0;
+}
+
+main{
+  padding:25px;
+
+}
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height:100px;
+    width: 100%;
+    background-color: #2F4F4F;
+}
+footer p{
+    
+    /*grid-template-columns: 1fr;*/
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+
+
+}
+/*hamburger menu*/ 
+#menu::before {
+	content: "☰";
+    color: #000;
+    
+}
+
+#menu.open::before {
+	content: "✖";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	color: #fff;
+}
+.navigation .active{
+    text-decoration: underline white;
+}
+.navigation a {
+	display: none;
+	padding: 1rem;
+    background-color: #000;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+    
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+
