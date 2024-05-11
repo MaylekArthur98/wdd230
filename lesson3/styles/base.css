@@ -25,14 +25,45 @@ nav {
     background-color: white;
     font-size: 25px;
     margin:0;
+    margin-bottom: 0;
 }
 
 main{
     padding:25px;
-
+}
+h2{
+    background-color: #000;
+    color: white;  
+    padding-top: 35px; 
+    border-radius: 5px;
 }
 section{
-    border: solid #000 5px;
+    /*border: solid #000 3px;
+    border-radius: 3px;*/
+    padding:0;
+    margin: 0%;
+}
+.siteInfo{
+    background-color: #7f7f7f;
+    padding: .5rem;
+    padding-top: 1rem;
+    border-radius: 5px;
+}
+.color-schema{
+    background-color: #7f7f7f;
+    padding: .5rem;
+    padding-top: 1rem;
+    border-radius: 5px;
+}
+h3{
+    text-decoration: underline black;
+    font-size: 20px;  
+}
+p{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
 }
 .schema{
     width: 100%;
