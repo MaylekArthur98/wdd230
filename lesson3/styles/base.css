@@ -10,8 +10,8 @@ body {
 
 
 header{
-    background-color: #e21833;
-    color: #000;
+    background-color: black;
+    color: white;
     display: grid;
     /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
     padding: 5em;
@@ -47,20 +47,20 @@ section{
     margin: 0%;
 }
 .siteInfo{
-    background-color: #7f7f7f;
     padding: .5rem;
     padding-top: 1rem;
     border-radius: 5px;
 }
 .color-schema{
-    background-color: #7f7f7f;
     padding: .5rem;
     padding-top: 1rem;
     border-radius: 5px;
 }
 h3{
+    background-color: #9D081C;
     text-decoration: underline black;
-    font-size: 20px;  
+    font-size: 20px; 
+    padding: 10px; 
 }
 p{
     font-size: 20px;
@@ -76,6 +76,7 @@ li{
 }
 .displayWireframe{
     padding: 5px;
+
 }
 .mobileWireframe{    
     padding: 5px;
@@ -88,7 +89,7 @@ footer{
     bottom: 0;
     height:100px;
     width: 100%;
-    background-color: #ffd200;
+    background-color: black;
     padding-top: 5px;
 }
 footer p{
@@ -100,6 +101,7 @@ footer p{
     color: 000;
     margin-top: 1rem;
     margin-bottom: 0;
+    color: #fff;
 }
 
 #menu {
