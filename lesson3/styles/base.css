@@ -129,7 +129,7 @@ footer p{
 	color: #fff;
 }
 .navigation .active{
-    text-decoration: underline white;
+    text-decoration: underline black;
 }
 .navigation a {
 	display: none;
