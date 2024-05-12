@@ -75,11 +75,9 @@ li{
     background-color: #7f7f7f;
 }
 .displayWireframe{
-    width: 500px;
     padding: 5px;
 }
-.mobileWireframe{  
-    width: 500px;
+.mobileWireframe{    
     padding: 5px;
 }
 

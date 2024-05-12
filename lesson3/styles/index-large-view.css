@@ -50,12 +50,14 @@
     .schema{
         width:60%;
     }
+    .wireframe{
+        display: grid;
+    }
     .displayWireframe{
-        float:right;
-        width:1000px;
+        grid-column: 1;
     }
     .mobileWireframe{
-        width: 1000px;
+        grid-column: 2;
     }
     iframe{
       width: 100%;
