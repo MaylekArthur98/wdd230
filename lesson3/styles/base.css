@@ -58,7 +58,8 @@ section{
 }
 h3{
     background-color: #9D081C;
-    text-decoration: underline black;
+    text-decoration: underline white;
+    color: white;
     font-size: 20px; 
     padding: 10px; 
 }
@@ -71,9 +72,7 @@ li{
 .schema{
     width: 100%;
 }
-.wireframe{
-    background-color: #7f7f7f;
-}
+
 .displayWireframe{
     padding: 5px;
 
