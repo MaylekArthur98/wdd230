@@ -27,11 +27,14 @@ nav {
     margin:0;
     margin-bottom: 0;
 }
-
+h1{
+    text-align: center;
+}
 main{
     padding:25px;
 }
 h2{
+    text-align: center;
     background-color: #000;
     color: white;  
     padding-top: 35px; 
@@ -68,7 +71,18 @@ li{
 .schema{
     width: 100%;
 }
-
+.wireframe{
+    background-color: #7f7f7f;
+}
+.displayWireframe{
+    width: 500px;
+    padding: 5px;
+}
+.mobileWireframe{
+    
+    width: 500px;
+    padding: 5px;
+}
 
 footer{
     position: relative;
