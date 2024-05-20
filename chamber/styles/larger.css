@@ -1,0 +1,13 @@
+
+header{
+    padding: 5em;
+}
+.navigation::close{
+    display: none;
+}
+
+.hero-image{
+    grid-column: 1/span2;
+    border: 3px solid black;
+}
+

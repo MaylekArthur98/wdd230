@@ -1,0 +1,88 @@
+:root{
+    --primary-color:black;
+    --secondary-color: #9D081C;
+    --accent1-color: #FFD200;
+    --accent2-color: white;
+}
+body{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: #000;
+    color:white;
+    display: grid;
+}
+h1{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    margin:0;
+    margin-bottom: 0;
+}
+
+#menu {
+    position: absolute;
+	border: 0;
+	background: none;
+	color: white;
+    top: 6em;
+    font-size: 2em;
+   
+
+}
+
+#menu::before {
+	content: "☰";
+    color: white;
+    
+}
+
+#menu.open::before {
+	content: "✖";
+    color: white;
+}
+.navigation {
+    display:flex;
+	flex-direction: column;
+	list-style: none;
+	color: #fff;
+}
+.navigation a{
+    display: none;
+	padding: 1rem;
+    background-color: #ffd200;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+.navigation a:hover {
+	background-color: #000;
+	color: white;
+	font-weight: 700;
+}
+.open a {
+	display: block;
+}
+
+.social{
+    position: absolute;
+    top: 10em;
+    right:0.5em;
+}
+
+main{
+    padding:25px;
+}
+
+section{
+    
+    border: solid 2px black;
+}

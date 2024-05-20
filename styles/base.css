@@ -145,9 +145,4 @@ ul li a{
 .open a {
 	display: block;
 }
-iframe{
-    width: 50%;
-    height: 50%;
-    grid-column: 1/span 2;
-}   
 

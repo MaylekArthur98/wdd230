@@ -13,10 +13,6 @@
         font-size: 50px;
         color: white; 
     }
-    #menu {
-		display: none; /* hide hamburger button */
-	}
-
 	.navigation {
 		flex-direction: row;
 	}
@@ -38,6 +34,9 @@
         grid-row: 1;
         color:white;
         
+    }
+    #menu{
+        display: none;
     }
     .siteInfo{
         display: grid;
