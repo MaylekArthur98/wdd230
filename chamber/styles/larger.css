@@ -1,13 +1,16 @@
 
-header{
-    padding: 5em;
+header h1{
+    padding: 2.5em;
 }
 .navigation::close{
     display: none;
 }
 
 .hero-image{
-    grid-column: 1/span2;
+    margin-top: 0%;
+    width: 100vw;
+    height: 50vh;
     border: 3px solid black;
 }
+
 
