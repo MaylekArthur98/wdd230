@@ -85,10 +85,29 @@ nav{
     color: #000;
 }
 main{
-    padding:25px;
+    padding:0;
 }
-
-section{
+.call-to-action{
+    font-size: 50px;
+    color: #000;
+    background-color: #FFD200;
+    text-align: center;
+    text-decoration: none;
+}
+.page-link{
+    color: #000;
+    background-color: #FFD200;
+    text-decoration: none;
     
-    border: solid 2px black;
+}
+footer{
+    position: relative;
+    position: absolute-bottom;
+    left: 0;
+    bottom: 0;
+    height:100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
 }
