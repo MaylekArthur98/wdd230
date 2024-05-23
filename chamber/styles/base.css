@@ -87,18 +87,37 @@ nav{
 main{
     padding:0;
 }
+.cityinfo h3,.spotlights h3{
+    font-size: 2rem;
+    text-decoration: underline var(--accent2-color);
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    padding: .2rem;
+    border-radius: .2rem;
+}
 .call-to-action{
-    font-size: 50px;
+    font-size: 2rem;
     color: #000;
     background-color: #FFD200;
     text-align: center;
     text-decoration: none;
 }
-.page-link{
-    color: #000;
-    background-color: #FFD200;
+.call-to-action:hover{
+    background-color: var(--primary-color);
+    color:var(--accent2-color);
+    text-decoration: underline var(--accent2-color);
+}
+.pagelink{
+    color: var(--accent2-color);
+    background-color: var(--primary-color);
     text-decoration: none;
+    border-radius: .2rem;
     
+}
+.pagelink:hover{
+    background-color: var(--secondary-color);
+    color:var(--accent2-color);
+    text-decoration: underline var(--accent2-color);
 }
 footer{
     position: relative;
@@ -109,5 +128,17 @@ footer{
     width: 100%;
     background-color: black;
     color: white;
-    padding-top: 5px;
+    padding-bottom: 4rem;
+}
+footer p{
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    color: 000;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: #fff;
+}
+.year{
+    color: #fff;
 }
