@@ -30,11 +30,9 @@ nav{
     margin-bottom: 0;
 }
 #menu {
-    position: absolute;
     border: 0;
     background: none;
     color: white;
-    top: 6em;
     font-size: 2em;
 }
 #menu::before {
@@ -69,27 +67,15 @@ nav{
 .open a {
     display: block;
 }
-.social{
-    width: 50%;
-}
-.social a{
-    color: #000;
-}
+
+
 main{
     padding:0px;
 }
 .hero-image{
     width: 100%;
 }
-.call-to-action{
-    position: absolute;
-    right: 23rem;
-    top:15rem;
-    font-size: 3rem;
-    padding: .2rem;
-    border-radius: .2rem;
 
-}
 .cityinfo h3,.spotlights h3{
     text-align: center;
     font-size: 3rem;
