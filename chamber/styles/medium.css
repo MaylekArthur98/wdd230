@@ -1,0 +1,11 @@
+@media screen and (min-width: 490px) and (max-width: 800px){
+    .call-to-action{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        padding: .5rem;
+        border-radius: .5rem;
+    }
+}
