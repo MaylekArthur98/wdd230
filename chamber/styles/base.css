@@ -11,6 +11,7 @@ body{
     font-style: normal;
     padding: 0%;
     margin: 0%;
+
 }
 header{
     background-color: #000;
@@ -28,75 +29,82 @@ nav{
     margin:0;
     margin-bottom: 0;
 }
-
 #menu {
     position: absolute;
-	border: 0;
-	background: none;
-	color: white;
+    border: 0;
+    background: none;
+    color: white;
     top: 6em;
     font-size: 2em;
-   
-
 }
-
 #menu::before {
-	content: "☰";
-    color: white;
+    content: "☰";
+    color: black;
     
 }
 
 #menu.open::before {
-	content: "✖";
-    color: white;
+    content: "✖";
+    color: black;
 }
 .navigation {
     display:flex;
-	flex-direction: column;
-	list-style: none;
-	color: #fff;
+    flex-direction: column;
+    list-style: none;
+    color: #fff;
 }
 .navigation a{
     display: none;
-	padding: 1rem;
+    padding: 1rem;
     background-color: #ffd200;
-	text-align: center;
-	text-decoration: none;
-	color: #000;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
 }
 .navigation a:hover {
-	background-color: #000;
-	color: white;
-	font-weight: 700;
+    background-color: #000;
+    color: white;
+    font-weight: 700;
 }
 .open a {
-	display: block;
+    display: block;
 }
-
 .social{
-    position: absolute;
-    top: 10em;
-    right:0.5em;
-}
-.social img{
-    width: 60px;
+    width: 50%;
 }
 .social a{
     color: #000;
 }
 main{
-    padding:0;
+    padding:0px;
+}
+.hero-image{
+    width: 100%;
+}
+.call-to-action{
+    position: absolute;
+    right: 23rem;
+    top:15rem;
+    font-size: 3rem;
+    padding: .2rem;
+    border-radius: .2rem;
+
 }
 .cityinfo h3,.spotlights h3{
-    font-size: 2rem;
+    text-align: center;
+    font-size: 3rem;
     text-decoration: underline var(--accent2-color);
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     padding: .2rem;
     border-radius: .2rem;
 }
-.call-to-action{
+.cityinfo p, .spotlights p{
     font-size: 2rem;
+    text-align: center;
+}
+.call-to-action{
+    position: absolute;
     color: #000;
     background-color: #FFD200;
     text-align: center;
@@ -140,5 +148,11 @@ footer p{
     color: #fff;
 }
 .year{
+    color: #fff;
+}
+.contact h3{
+    padding: 0;
+    text-align: center;
+    font-size: .2rem;   
     color: #fff;
 }
