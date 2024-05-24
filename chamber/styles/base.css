@@ -30,10 +30,11 @@ nav{
     margin-bottom: 0;
 }
 #menu {
+    margin-left: 24rem;
     border: 0;
     background: none;
     color: white;
-    font-size: 2em;
+    font-size: 3em;
 }
 #menu::before {
     content: "☰";
@@ -57,6 +58,7 @@ nav{
     background-color: #ffd200;
     text-align: center;
     text-decoration: none;
+    font-size: 3rem;
     color: #000;
 }
 .navigation a:hover {
@@ -67,13 +69,23 @@ nav{
 .open a {
     display: block;
 }
+.hero{
+    display: grid;
 
-
+}
 main{
     padding:0px;
 }
 .hero-image{
+
     width: 100%;
+}
+.call-to-action{
+    margin-top: 20%;
+    left: 40%;
+    font-size: 3rem;
+    padding: .5rem;
+    border-radius: .5rem;
 }
 
 .cityinfo h3,.spotlights h3{
@@ -101,11 +113,15 @@ main{
     color:var(--accent2-color);
     text-decoration: underline var(--accent2-color);
 }
+.spotlights, .cityinfo{
+    text-align: center;
+}
 .pagelink{
     color: var(--accent2-color);
     background-color: var(--primary-color);
     text-decoration: none;
     border-radius: .2rem;
+    font-size: 2rem;
     
 }
 .pagelink:hover{
@@ -113,6 +129,7 @@ main{
     color:var(--accent2-color);
     text-decoration: underline var(--accent2-color);
 }
+
 footer{
     position: relative;
     position: absolute-bottom;
