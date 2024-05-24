@@ -1,0 +1,83 @@
+header h1{
+    padding: 2.5em;
+}
+.navigation {
+    flex-direction: row;
+}
+#menu{
+    display: none;
+}
+.navigation a {
+    display: block;
+    flex: 1 1 100%;
+}
+
+.hero-image{
+    width: 100%;
+}
+.call-to-action{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.cityinfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 0  5rem 5rem;
+}
+.weather-card, .event-card{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+}
+.card{
+
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+}
+.spotlights{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 0  5rem  5rem;
+    
+}
+.cityinfo h3,.spotlights h3{
+    font-size: 2rem;
+}
+
+.cityinfo p, .spotlights p{
+    font-size: 2rem;
+}
+.pagelink{
+    font-size: 1.5rem;
+    padding: .4rem;
+    margin-bottom: .2rem;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact h3{
+    grid-column: 1;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: #fff;
+}
+.contact {
+    margin: 1rem;
+    padding-top: 1rem;
+    border-right: 2px solid var(--accent2-color);
+}
+.classinfo{
+    padding-top: 3.5rem;
+}
