@@ -16,4 +16,8 @@ button.addEventListener('click', function(){
         input.focus();
         input.value='';
     }
+    else 
+    {
+        return `please enter vaild input`
+    }
  });
