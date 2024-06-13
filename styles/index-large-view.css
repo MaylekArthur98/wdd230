@@ -3,6 +3,11 @@
         width: 20em;
         justify-content: left;
     }
+    .hero{
+        display: grid;
+        grid-column: 1/span 2;
+        
+    }
     nav {
         padding: 0;
     }
