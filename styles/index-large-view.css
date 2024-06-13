@@ -3,11 +3,6 @@
         width: 20em;
         justify-content: left;
     }
-    .hero{
-        display: grid;
-        grid-column: 1/span 2;
-        
-    }
     nav {
         padding: 0;
     }
@@ -38,11 +33,17 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+    
     main {
         display: grid;
         grid-template-rows: 5em 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
+    }
+    .hero{
+        display: grid;
+        grid-column: 1/span 2;
+        width: 100%;
     }
     main h2 {
         justify-content: center;
