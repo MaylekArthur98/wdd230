@@ -14,7 +14,10 @@ header{
     display: grid;
     /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
 }
+.hero{
 
+    width: 100%;
+}
 img{
    width: 25%;
    height: auto;
@@ -50,6 +53,14 @@ h2 {
     font-family: verdana;
     font-size: larger;
     padding-top: 5px;
+}
+.hero{
+    width: 100%;
+}
+
+.hero img {
+	width: 100%;
+
 }
 main{
   padding:25px;
