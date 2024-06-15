@@ -37,7 +37,11 @@
     </nav> 
     <main>
         <div class="hero">
-            <img class = "hero-image" src="images/silver-spring-city.jpg"  alt="city-photo">
+            <picture>
+                <source srcset="images/SilverSpring-small.webp" media="(max-width: 400px)">
+                <source srcset="images/SilverSpring-medium.webp" media="(max-width: 960px)">
+                <img class = "hero-image" src="images/silver-spring-city.webp"  alt="city-photo">
+            </picture>
             <a href="" class="call-to-action">Join Us!</a>  
         </div>
         <div class="cityinfo">
