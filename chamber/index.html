@@ -47,7 +47,14 @@
         <div class="cityinfo">
             <section class="weather-card">
                 <h3>Weather</h3>
-                <p>Placeholder Information</p>    
+                <p>Today's Weather
+                    <ul> 
+                       <li>High: 90&deg;F</li>
+                       <li>Low: 47&deg;F</li>
+                       <li>Chance of Precipitation: 20%</li>
+                       <li>Wind: 15mph NW</li>
+                       <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
+                </ul> </p>    
             </section>
             <section class="event-card">
                 <h3>Current Events</h3>
@@ -80,6 +87,7 @@
         </section>
         <p class="classinfo"><span id = "year"></span> | Maylek Arthur | WDD230 Project | <span id="lastModified"></span></p>
     </footer>
+    <script src="scripts/windchill.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburgermenu.js"></script>
 </body>
