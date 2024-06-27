@@ -168,8 +168,11 @@ footer p{
     
 }
 .southern-food img,.money-muscle img,.zinnia-bar img,.hertiage-day img,.salsa-dancing img,.classic-cars img{
-    width: 800px;
-    height:600px;
+    width: 500px;
+    height:500px;
+}
+.southern-food img:hover,.money-muscle img:hover,.zinnia-bar img:hover,.hertiage-day img:hover,.salsa-dancing img:hover,.classic-cars img:hover{
+    box-shadow: 0 0 50px #333;
 }
 .foodspots{
     grid-row: 3/span 4;
@@ -186,11 +189,6 @@ footer p{
     background-color: black;
     color: white;
     padding: 2rem;
-}
-.page-visits{
-    grid-column: 1;
-    grid-row: 1;
-    font-size: 30px;
 }
 .demographics{
     grid-row: 2;
@@ -214,7 +212,11 @@ footer p{
     text-align: center;
     font-size: 2rem;
 }
-#visits{
+#visit{
     text-align: center;
     color: #000;
+    font-size: 40px;
+}
+picture p{
+    font-size: 20px;
 }
