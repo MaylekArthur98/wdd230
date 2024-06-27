@@ -1,0 +1,26 @@
+table{
+    margin: 10px auto;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+caption {
+    caption-side: bottom;
+}
+thead{
+    background-color: black;
+    color: white;
+}
+
+td {
+	text-align: center;
+}
+th {
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+tbody tr:nth-child(even) {
+    background-color: #edededff;
+}
+
