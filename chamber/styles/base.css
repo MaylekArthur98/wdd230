@@ -153,6 +153,68 @@ footer p{
 .contact h3{
     padding: 0;
     text-align: center;
-    font-size: .2rem;   
+    font-size: 10px;   
     color: #fff;
+}
+.discovery-info{
+    display: grid;
+    grid-template-rows: 600px 600px 600px 600px 600px 600px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 1em;
+}
+.southern-food,.money-muscle,.zinnia-bar,.hertiage-day,.salsa-dancing,.classic-cars{
+    grid-column: 2;
+    
+}
+.southern-food img,.money-muscle img,.zinnia-bar img,.hertiage-day img,.salsa-dancing img,.classic-cars img{
+    width: 800px;
+    height:600px;
+}
+.foodspots{
+    grid-row: 3/span 4;
+    grid-column: 1;
+}
+.events{
+    grid-row: 5/span 6;
+    grid-column: 1;
+
+}
+
+
+.demographics h1, .events h1, .foodspots h1{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+}
+.page-visits{
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 30px;
+}
+.demographics{
+    grid-row: 2;
+    grid-column: 1;
+
+}
+.demographics p, .events p, .foodspots p{
+    font-size: 25px;
+}
+.demographics h2, .events h2, .foodspots h2{
+    font-size: 30px;
+}
+.demographics li{
+    padding: 10px;
+    font-size: 30px;
+}
+.events ul li{
+    font-size: 25px;
+}
+.contact h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.visits{
+    text-align: center;
+    color: #000;
 }
