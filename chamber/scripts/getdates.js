@@ -3,7 +3,7 @@ year.innerHTML= `&#169; ${new Date().getFullYear()}`;
 const lastModified = document.getElementById('lastModified');
 lastModified.innerHTML = document.lastModified;
 
-const visitsDisplay = document.getElementById(".visits");
+const visitsDisplay = document.getElementById("visits");
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 const msToDays = 84600000;
 let daysBetween = ((Date.now()- numVisits) / msToDays).toFixed(0);
