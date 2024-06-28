@@ -1,0 +1,49 @@
+*:root {
+    --display: block;
+    --color: black;
+    --font-size: 20px;
+    --align: center;
+}
+.form label,
+#formmessage {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form input {
+    display: var(--display);
+    padding-top: .9rem;
+}
+
+#button {
+    display: block;
+    padding: 1rem;
+    color: var(--color);
+    box-shadow: 1px 1px 4px black ;
+}
+.form label{
+    font-size: var(--font-size);
+    padding-top: 1rem;
+}
+.form {
+    font-size: var(--font-size);
+    display: var(--display);
+
+}
+.form input:required{
+    border-bottom: solid 8px red;
+}
+.form input:valid{
+    border-bottom: solid 8px green;
+}
+
+main.record {
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+    width: 80%;
+    text-align: var(--align);
+}
+
+main.record h2 {
+    border-bottom: none;
+}
