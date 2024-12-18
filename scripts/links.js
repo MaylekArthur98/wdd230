@@ -16,7 +16,7 @@ function displayLinks(weeks) {
             {
             let a = document.createElement("a");
             a.setAttribute("href", link.url);
-            a.textContent = `${link.title} |`;
+            a.textContent = `${title} |`;
             li.appendChild(a);
         });
         document.querySelector("#activities").appendChild(li);  
