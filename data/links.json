@@ -1,0 +1,108 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title":"HG Layout"
+                },
+                {
+                    "url":"week01/design-principles.html",
+                    "title":"DP layout"
+                },
+                {
+                    "url":"week01/media-query",
+                    "title":"mQuries"
+                },
+                {
+                    "url": "https://codepen.io/Bandito1223/pen/bGZeQMb",
+                    "title": "applied JavaScript"
+                    
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title":"Design layout"
+                },
+                {
+                    "url": "week02/bom.hmtl",
+                    "title":"BoM 1"
+                },
+                {
+                    "url":"https://codepen.io/Bandito1223/pen/Povojxm",
+                    "title": "Hamburger menu"
+                }
+
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links":[
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "Webp"
+                },
+                {
+                    "url": "week03/lazyloading.hmtl",
+                    "title":"Lazy"
+                },
+                {
+                    "url": "week03/responsive-images",
+                    "title": "Responsive"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title":"BoM 2"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links":[
+                {
+                    "url":"https://codepen.io/Bandito1223/pen/KKLVVBZ",
+                    "title": "PS Classes"
+                },
+                {
+                    "url": "week04/images/w3-combinators.JPG",
+                    "title": "Combinators"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title": "Table"
+                },
+                {
+                    "url":"week04/Form-start/index.html",
+                    "title": "Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links":[
+                {
+                    "url":"https://codepen.io/Bandito1223/pen/pomowwa",
+                    "title": "PS Elements"
+                },
+                {
+                    "url":"week05/new-ward-members.json",
+                    "title": " Ward JSON"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather"
+                }
+            ]
+
+        }
+    ]
+}

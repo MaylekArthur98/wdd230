@@ -49,24 +49,18 @@
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
-            <ul>
-                <li><a href="lesson02/design-principles.html">Design-Principles</a></li>
-                <li><a href="https://codepen.io/Bandito1223/pen/Povojxm">Hamburger Menu</a> <a href = "https://codepen.io/Bandito1223/pen/pomowwa"> | Psuedo Element</a></li>
-                <li><a href="https://codepen.io/Bandito1223/pen/KKLVVBZ">CSS Pseudo-Classes</a></li>
-                <li><a href="lesson05/bom.html">Book of Mormon list</a></li>
-                <li><a href="lesson06/images/landscape.webp">WebP</a><a href = "lesson06/responsive-images.html"> | Responsive-Images</a></li>
-                <li><a href="lesson07/lazyloading.html">lazyloading</a><a href= "lesson07/bom.html">Book of Mormon List</a></li>
-                <li><a href="lesson08/tablebuild.html">Table build</a><a href="lesson08/form-start/Form-start/index.html"> | HTML Form</a><a href="https://codepen.io/Bandito1223/pen/KKLVVBZ"> | Pseudo-classes</a><a href="images/w3-combinators.JPG"> | CSS combinators</a></li>
-                <li><a href="https://codepen.io/Bandito1223/pen/pomowwa">Pusedo-elements</a><a href="week05/new-ward-members.json"> | Json data</a></li>
-                <li><a href="week05/prophets.html">Prophets</a></li>
-                <li><a href="week05/weather.html">Weather</a></li>
-            </ul>
+            <ul id="activities"></ul> 
         </section>
 
         <section class="card">
             <h3>Information</h3>
             <p>Greenbelt, Maryland</p>
-            <p>42<span>&#176;</span> - Sunshine</p>
+            <p> <span id="current-temp"></span></p>
+            <figure>
+                <figcaption></figcaption>
+                <img id="weather-icon" src="" alt="">
+                
+            </figure>
             <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
         </section>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24807.7829107159!2d-76.90999685900951!3d38.99311568147055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c3d894c1509b%3A0xa50738adf244f411!2sGreenbelt%2C%20MD!5e0!3m2!1sen!2sus!4v1715287559298!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -78,5 +72,7 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/links.js"></script>
 </body>
 </html>
