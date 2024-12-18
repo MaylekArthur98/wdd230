@@ -156,25 +156,25 @@ footer p{
     font-size: 10px;   
     color: #fff;
 }
-.discovery-info{
+/*.discovery-info{
     display: grid;
     grid-template-rows: 600px 600px 600px 600px 600px 600px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     margin: 1em;
-}
-.southern-food,.money-muscle,.zinnia-bar,.hertiage-day,.salsa-dancing,.classic-cars{
+}*/
+/*.southern-food,.money-muscle,.zinnia-bar,.hertiage-day,.salsa-dancing,.classic-cars{
     grid-column: 2;
     
 }
 .southern-food img,.money-muscle img,.zinnia-bar img,.hertiage-day img,.salsa-dancing img,.classic-cars img{
     width: 500px;
     height:500px;
-}
+}*/
 .southern-food img:hover,.money-muscle img:hover,.zinnia-bar img:hover,.hertiage-day img:hover,.salsa-dancing img:hover,.classic-cars img:hover{
     box-shadow: 0 0 50px #333;
 }
-.foodspots{
+ /*.foodspots{
     grid-row: 3/span 4;
     grid-column: 1;
 }
@@ -182,7 +182,7 @@ footer p{
     grid-row: 5/span 6;
     grid-column: 1;
 
-}
+}*/
 
 
 .demographics h1, .events h1, .foodspots h1{
@@ -190,11 +190,11 @@ footer p{
     color: white;
     padding: 2rem;
 }
-.demographics{
+/*.demographics{
     grid-row: 2;
     grid-column: 1;
 
-}
+}*/
 .demographics p, .events p, .foodspots p{
     font-size: 25px;
 }
@@ -221,12 +221,12 @@ picture p{
     font-size: 20px;
 }
 
-.joinus {
+/*.joinus {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     margin: 1em;
-}
+}*/
 .joinus h1 {
     background-color: #000;
     color: #fff;

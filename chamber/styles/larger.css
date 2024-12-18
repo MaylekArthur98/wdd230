@@ -82,4 +82,40 @@
     .classinfo{
         padding-top: 3.5rem;
     }
+    .foodspots{
+        grid-row: 3/span 4;
+        grid-column: 1;
+    }
+    .events{
+        grid-row: 5/span 6;
+        grid-column: 1;
+    
+    }
+    .southern-food,.money-muscle,.zinnia-bar,.hertiage-day,.salsa-dancing,.classic-cars{
+        grid-column: 2;
+        
+    }
+    .southern-food img,.money-muscle img,.zinnia-bar img,.hertiage-day img,.salsa-dancing img,.classic-cars img{
+        width: 500px;
+        height:500px;
+    }
+    .demographics{
+        grid-row: 2;
+        grid-column: 1;
+    
+    }
+    .discovery-info{
+        display: grid;
+        grid-template-rows: 600px 600px 600px 600px 600px 600px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: 1em;
+    }
+    .joinus {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: 1em;
+    }
+    
 }
