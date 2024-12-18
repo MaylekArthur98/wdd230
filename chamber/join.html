@@ -35,12 +35,12 @@
         <a href="">Directory </a>
         <a href="">Join</a>
     </nav> 
-    <main>
-        <section class="form">
+    <main class="joinus">
+        <section class="membershipform">
             <h1>Membership Application</h1>
             <form method="get" action="thankyou.html" class="form">
                 <fieldset>
-                    <legend>Applicant Information</legend>
+                    <legend class ="applicant">Applicant Information</legend>
                     <label for="firstName">First Name*:</label><br>
                     <input type="text" id="fname" name="firstName" required><br>
                     <label for="lastName">Last Name*:</label><br>
@@ -48,7 +48,7 @@
                     <label for="position">Title/Position*:</label><br>
                     <input type="text" id="position" name="position" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{7,}$"><br>
                     <label for="email">Email*:</label><br>
-                    <input type="email" id="email" name="email"placeholder ="jon.doe@gmail.com" required><br>
+                    <input type="email" id="email" name="email"placeholder ="someone@gmail.com" required><br>
                     <label for="phone">Phone Number*:</label><br>
                     <input type="tel" id="phone" name="phone" required><br>
                     <label for="business">Buisness/Organization:</label><br>
@@ -58,7 +58,7 @@
                     <input type="hidden" id="date" name="date">
                 </fieldset><br>
                 <fieldset>
-                    <legend>Membership</legend>
+                    <legend class="membershipInfo">Membership</legend>
                     <div>Membership level:</div>
                     <label><input type = "radio" name="membership" value="nonProfit">NP Membership is for non profit organizations and there is no fee.</label><br>
                     <label><input type = "radio" name="membership" value="bronze">Bronze Membership</label><br>
@@ -98,7 +98,7 @@
                 <h2>Gold Memebership</h2>
                 <h3>-$999.99 a year-</h3>
                 <p>At this level, your events are advertised around the city and all event entry fees are free. 
-                    You gain 40% discount on all goods at events. YOur company will be highlighted on our website as well.
+                    You gain 40% discount on all goods at events. Your company will be highlighted on our website as well.
                 </p>
             </li>
     </ul>
