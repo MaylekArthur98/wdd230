@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maylek Arthur - Silver Spring Chamber of Commerence</title>
+    <meta name="author" content="Maylek Arthur">
+    <meta
+        name="description"
+        content="This site will be the homepage for the chamber of commerence of silver spring and hold all the links to other pages wit a brief description of each page.">
+    <meta property="og: title" content="Chamber Home Page">
+    <meta property="og: type" content="website">
+    <meta property="og:image" content="https://visitmontgomery.com/wp-content/uploads/2019/05/HEADER-Downtown-Silver-Spring.jpg">
+    <meta property="og: url" content="https://maylekarthur98.github.io/wdd230/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel ="stylesheet" href ="styles/base.css">
+    <link rel ="stylesheet" href ="styles/medium.css">
+    <link rel ="stylesheet" href ="styles/larger.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="scripts/site.webmanifest">
+</head>
+<body>
+    <header>
+        <h1>Silver Spring Chamber of Commerence</h1>
+    </header>   
+    <button id="menu"></button>
+    <nav class=" navigation">
+        <a href="https://maylekarthur98.github.io/wdd230/">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="">Directory </a>
+        <a href="">Join</a>
+    </nav> 
+    <main>
+        <h1>Membership Application</h1>
+        <form method="get" action="thankyou.html" class="form">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label for="firstName">First Name*:</label><br>
+                <input type="text" id="fname" name="firstName" required><br>
+                <label for="lastName">Last Name*:</label><br>
+                <input type="text" id="lname" name="lastName" required><br>
+                <label for="position">Title/Position*:</label><br>
+                <input type="text" id="position" name="position" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{7,}$"><br>
+                <label for="email">Email*:</label><br>
+                <input type="email" id="email" name="email"placeholder ="jon.doe@gmail.com" required><br>
+                <label for="phone">Phone Number*:</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+                <label for="business">Buisness/Organization:</label><br>
+                <input type="text" id="buisness" name="business" required><br>
+                <label for="description">Organization Description:</label><br>
+                <textarea name="discription" id="discription"></textarea><br>
+                <input type="hidden" id="date" name="date">
+            </fieldset><br>
+            <fieldset>
+                <legend>Membership</legend>
+                <div>Membership level:</div>
+                <label><input type = "radio" name="membership" value="nonProfit">NP Membership is for non profit organizations and there is no fee.</label><br>
+                <label><input type = "radio" name="membership" value="bronze">Bronze Membership</label><br>
+                <label><input type = "radio" name="membership" value="silver">Silver Membership</label><br>
+                <label><input type = "radio" name="membership" value="gold">Gold Membership</label><br>
+            </fieldset>
+            <button type="submit" id="button">Join</button>
+
+        </form>
+    </main>
+    <footer>
+        <section class="contact">
+            <h3>Contact information</h3>
+            <p class="emailnumber">info@sscoc.org | (240)545-1235</p>
+        </section>
+        <p class="classinfo"><span id = "year"></span> | Maylek Arthur | WDD230 Project | <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/join.js"></script>
+</body>
+</html>
