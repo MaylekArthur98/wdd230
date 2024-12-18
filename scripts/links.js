@@ -11,7 +11,6 @@ function displayLinks(weeks) {
     weeks.forEach(week => {
         let li = document.createElement("li");
         let links = week.links;  
-        li.textContent = `${week} `
         links.forEach(link => 
             {
             let a = document.createElement("a");
