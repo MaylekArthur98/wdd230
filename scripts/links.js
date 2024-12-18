@@ -11,12 +11,12 @@ function displayLinks(weeks) {
     weeks.forEach(week => {
         let li = document.createElement("li");
         let links = week.links;  
-        li.textContent = `${week} | ${title} `
+        li.textContent = `${week} `
         links.forEach(link => 
             {
             let a = document.createElement("a");
             a.setAttribute("href", link.url);
-            a.textContent = link.title;
+            a.textContent = `${link.title} |`;
             li.appendChild(a);
         });
         document.querySelector("#activities").appendChild(li);  
