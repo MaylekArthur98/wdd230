@@ -36,37 +36,73 @@
         <a href="">Join</a>
     </nav> 
     <main>
-        <h1>Membership Application</h1>
-        <form method="get" action="thankyou.html" class="form">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label for="firstName">First Name*:</label><br>
-                <input type="text" id="fname" name="firstName" required><br>
-                <label for="lastName">Last Name*:</label><br>
-                <input type="text" id="lname" name="lastName" required><br>
-                <label for="position">Title/Position*:</label><br>
-                <input type="text" id="position" name="position" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{7,}$"><br>
-                <label for="email">Email*:</label><br>
-                <input type="email" id="email" name="email"placeholder ="jon.doe@gmail.com" required><br>
-                <label for="phone">Phone Number*:</label><br>
-                <input type="tel" id="phone" name="phone" required><br>
-                <label for="business">Buisness/Organization:</label><br>
-                <input type="text" id="buisness" name="business" required><br>
-                <label for="description">Organization Description:</label><br>
-                <textarea name="discription" id="discription"></textarea><br>
-                <input type="hidden" id="date" name="date">
-            </fieldset><br>
-            <fieldset>
-                <legend>Membership</legend>
-                <div>Membership level:</div>
-                <label><input type = "radio" name="membership" value="nonProfit">NP Membership is for non profit organizations and there is no fee.</label><br>
-                <label><input type = "radio" name="membership" value="bronze">Bronze Membership</label><br>
-                <label><input type = "radio" name="membership" value="silver">Silver Membership</label><br>
-                <label><input type = "radio" name="membership" value="gold">Gold Membership</label><br>
-            </fieldset>
-            <button type="submit" id="button">Join</button>
-
-        </form>
+        <section class="form">
+            <h1>Membership Application</h1>
+            <form method="get" action="thankyou.html" class="form">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label for="firstName">First Name*:</label><br>
+                    <input type="text" id="fname" name="firstName" required><br>
+                    <label for="lastName">Last Name*:</label><br>
+                    <input type="text" id="lname" name="lastName" required><br>
+                    <label for="position">Title/Position*:</label><br>
+                    <input type="text" id="position" name="position" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{7,}$"><br>
+                    <label for="email">Email*:</label><br>
+                    <input type="email" id="email" name="email"placeholder ="jon.doe@gmail.com" required><br>
+                    <label for="phone">Phone Number*:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br>
+                    <label for="business">Buisness/Organization:</label><br>
+                    <input type="text" id="buisness" name="business" required><br>
+                    <label for="description">Organization Description:</label><br>
+                    <textarea name="discription" id="discription"></textarea><br>
+                    <input type="hidden" id="date" name="date">
+                </fieldset><br>
+                <fieldset>
+                    <legend>Membership</legend>
+                    <div>Membership level:</div>
+                    <label><input type = "radio" name="membership" value="nonProfit">NP Membership is for non profit organizations and there is no fee.</label><br>
+                    <label><input type = "radio" name="membership" value="bronze">Bronze Membership</label><br>
+                    <label><input type = "radio" name="membership" value="silver">Silver Membership</label><br>
+                    <label><input type = "radio" name="membership" value="gold">Gold Membership</label><br>
+                </fieldset>
+                <button type="submit" id="button">Join</button>
+            </form>
+    </section>
+    <section class="membershipDiscriptions">
+        <h1>Membership information</h1>
+        <ul>
+            <li>
+                <h2>Nonprofit Membership</h2>
+                <p>
+                    This membership is free to those that qualify as nonprofit.
+                    Nonprofit Memebers are able to send us via email 
+                    special events involved with your Organization and can be posted on our website for others to see.
+                    More information will be emailed after application submition.
+                </p>
+            </li>
+            <li>
+                <h2>Bronze Membership</h2>
+                <h3>-$149.99 per year-</h3>
+                <p>At this level you are able to send in your events to be posted on our 
+                    discover page and have 10% discount at local events in the area </p>
+            </li>
+            <li>
+                <h2>Silver Memebership</h2>
+                <h3>-$499.99 a year-</h3>
+                <p>At this level, your events are posted on the front page, your organization will recieve a 25%
+                    discount at events and free tickets to different events year round (more information 
+                    regarding which events will be sent to your email). Also employees will recieve free gym memeberships
+                    at specific gyms in the area.</p>
+            </li>
+            <li>
+                <h2>Gold Memebership</h2>
+                <h3>-$999.99 a year-</h3>
+                <p>At this level, your events are advertised around the city and all event entry fees are free. 
+                    You gain 40% discount on all goods at events. YOur company will be highlighted on our website as well.
+                </p>
+            </li>
+    </ul>
+    </section>
     </main>
     <footer>
         <section class="contact">
