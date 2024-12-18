@@ -231,14 +231,14 @@ picture p{
     background-color: #000;
     color: #fff;
     padding: .50rem;
-    border: solid 1 black;
+    border: solid 1px black;
     border-radius: 6px;
 }
 .applicant, .membershipInfo {
     background-color: #FFD200;
     color: black;
     padding: .50rem;
-    border: solid 1 black;
+    border: solid 1px black;
     border-radius: 6px;
     font-size: 20px;
 }
@@ -249,7 +249,7 @@ picture p{
 {
     background-color: white;
     display: block;
-    border: solid 1 black;
+    border: solid 1px black;
     border-radius: 6px;
     padding: .50rem;
     color: #000;
