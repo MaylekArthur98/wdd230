@@ -1,0 +1,29 @@
+{
+    "familyName":"Arthur",
+    "moveIntoWard": "12/21/2020",
+    "numOfFamilyMembers": 4,
+    "visited": true,
+    "members":[
+        {
+            "name": "Thomas Arthur",
+            "gender": "male",
+            "birthdate":"11/23/1998"
+        },
+        {
+            "name": "Jesscia Arthur",
+            "gender": "female",
+            "birthdate":"12/23/1999"
+        },
+        {
+            "name": "jeff Arthur",
+            "gender": "male",
+            "birthdate":"6/23/2021"
+        },
+        {
+            "name": "martha Arthur",
+            "gender": "female",
+            "birthdate":"8/23/2022"
+        }
+
+    ]
+}
