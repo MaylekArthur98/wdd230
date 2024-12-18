@@ -6,23 +6,19 @@ async function getLinks() {
     const data = await response.json();
     displayLinks(data.weeks);
   }
-
   getLinks();
-
 function displayLinks(weeks) {
     weeks.forEach(week => {
         let li = document.createElement("li");
-        let links = week.links;
-        
+        let links = week.links;      
         li.textContent = `${week.week}: `;
-
-        links.forEach(link => {
+        links.forEach(link => 
+            {
             let a = document.createElement("a");
             a.setAttribute("href", link.url);
             a.textContent = link.title;
             li.appendChild(a);
         });
-    
         document.querySelector("#activities").appendChild(li);  
     });
 }
