@@ -1,0 +1,15 @@
+{
+    "members": [
+        {
+            "name":"Parkway Deli",
+            "address":"8317 Grubb Rd. Silver Spring, MD 20910",
+            "phoneNum":"(301) 587-1427",
+            "url":"www.theparkwaydeli.com",
+            "image":"chamber/images/parkwayDeli.JPG",
+            "membership":"bronze"
+        },
+        {
+            
+        }
+    ]
+}
